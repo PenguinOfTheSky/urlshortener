@@ -42,7 +42,7 @@ Add \/new\/ plus a http or https complete url to the end of this site's url to r
 			let x = urls.length;
 			if (isUrl(req.url)) {
 			urls.push(req.url)
-			res.end(`Your url = ${req.url}, shortened url = this site's url + /${x}  
+			res.end(`Your url = ${req.url}, shortened url = this site's url + /${x}`)
 			} else {
 				res.end(`Invalid url, please try again.`)
 			}
